@@ -27,5 +27,5 @@ to do this in Objective-C to bind an NSArray<NSValue> to a property:
 					     [NSValue valuewithAFFamily:(AFFamily){ .name = @"IPv6", .family = AF_INET6 }],
 					     nil];
                       
-This works well. Look at ViewController::viewDidLoad for how this is wired up to a UIPickerView. 
+This works well. Look at ViewController.m for how this is wired up to a UIPickerView. 
 
